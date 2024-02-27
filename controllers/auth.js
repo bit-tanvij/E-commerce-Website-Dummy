@@ -11,9 +11,9 @@ const transporter = nodemailer.createTransport({
 	port: 587,
 	secure: false,
 	auth: {
-		user: 'tanvijaiswal88@gmail.com',
+		user: 'your brevo/other registered email',
 		pass:
-			'xsmtpsib-35d0305788432d29c07a8dd120af67c089017052548d5563879df0c55d58a481-SAwLh2Ejg31R9Mvy'
+			'your brevo/other smtp key'
 	}
 });
 
